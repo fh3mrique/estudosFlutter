@@ -1,4 +1,4 @@
-void main(List<String> args) {
+/* void main(List<String> args) {
   
   int inteiro = 10;
   double decimal = 10.0;
@@ -15,4 +15,4 @@ void main(List<String> args) {
   dynamic dinamico = "Qualquer tipo";
 
   print(object);
-}
+} */
