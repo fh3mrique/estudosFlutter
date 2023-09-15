@@ -6,11 +6,11 @@ class Camiseta{
 
   //Atributos
   String? tamanho;
-  String? cor;
+  String? _cor;
   String? marca;
 
   //Atributos de classe
-  static String nome = 'Camiseta';
+  static const String nome = 'Camiseta';
 
   //Métodos de classe
   static String recuperarNome() => nome;
@@ -22,6 +22,14 @@ class Camiseta{
     }
     else{
       return "pode lavar na mão";
+    }
+  }
+
+  String? get cor => _cor;
+
+  void set cor (String? cor){
+    if (cor == 'azul'){
+      throw Exception("Não pode ser verde");
     }
   }
 
