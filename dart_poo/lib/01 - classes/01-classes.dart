@@ -7,6 +7,11 @@ void main(List<String> args) {
   camisetaNike.cor = 'Preta';
   camisetaNike.marca = 'Nike';
 
+  //Acessando Atributo de classe(estático)
+  print(Camiseta.nome);
+  //Acessando Método de classe(estático)
+  //print(Camiseta.recuperarNome());
+
   print(
     ''' Camiseta:
         Tamanho : ${camisetaNike.tamanho}

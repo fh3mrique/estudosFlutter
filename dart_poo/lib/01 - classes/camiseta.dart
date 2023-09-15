@@ -9,6 +9,11 @@ class Camiseta{
   String? cor;
   String? marca;
 
+  //Atributos de classe
+  static String nome = 'Camiseta';
+
+  //Métodos de classe
+  static String recuperarNome() => nome;
 
   //Métodos : funções dentro de classes
   String tipoLavagem (){
